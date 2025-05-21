@@ -1,0 +1,21 @@
+body {
+	background-color: chartreuse;
+	display: flex;
+	justify-content: center;
+}
+
+.dark-theme{
+  background-color: rgb(103, 169, 37);
+  color: white;
+}
+
+.container{
+	color: rgb(211, 40, 40);
+	font-family: 'Gill Sans';
+}
+
+button{
+  background-color: rgb(177, 63, 238);
+  border: 3px solid rgb(211, 40, 40);
+  border-radius: 10px;
+}

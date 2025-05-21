@@ -1,0 +1,56 @@
+body{
+  background-color: aqua;
+}
+
+.btn-link{
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: #ff7f50;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration:none;
+  color: black;
+  font-size: 12px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transform: translateX(45vw);
+}
+
+
+
+.btn-link:hover{
+  background-color: #ee5d29;
+}
+
+#theme{
+  transform: translateY(0vh);
+}
+
+.dark-theme{
+  background-color: rgb(7, 123, 123);
+  color: white;
+}
+input{
+  border: 1px solid black;
+  border-radius: 10px;
+  transform: translateX(45vw);
+  background-color: #7fffd4;
+}
+
+input::placeholder{
+  color: black;
+}
+h1{
+  transform: translateX(43vw);
+}
+
+button{
+  transform: translateX(45vw);
+  background-color: #ff7f50;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+button:hover{
+  background-color: #ee5d29;
+}
