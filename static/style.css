@@ -2,7 +2,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #7acd75 0%, #4b4b4b 50%, #25cd1c 100%);
+  background: linear-gradient(9150deg, #7acd75 0%, #4b4b4b 50%, #25cd1c 100%);
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -68,6 +68,7 @@ button:hover{
   border: 1px solid black;
   border-radius: 50%;
   background: linear-gradient(75deg, #cd2b1c, #c8eb00,#f29d00);
+  animation: pulse 2s infinite;
 }
 
 .rectangle{
@@ -79,3 +80,12 @@ button:hover{
   transform: translateY(-100px);
 }
 
+#cycle2{
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(0.5);}
+  100% {transform: scale(1);}
+}
