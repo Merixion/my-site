@@ -61,3 +61,21 @@ input::placeholder{
 button:hover{
   background-color: #ee5d29;
 }
+
+.cycle{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: linear-gradient(75deg, #cd2b1c, #c8eb00,#f29d00);
+}
+
+.rectangle{
+  height: 200px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: linear-gradient(75deg, #cd2b1c, #c8eb00,#f29d00);
+  transform: translateY(-100px);
+}
+
